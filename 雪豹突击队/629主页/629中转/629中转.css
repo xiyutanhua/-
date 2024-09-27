@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+header, section, foorter {
+    background-color: #d6ccc2;
+    border:5px #9d8189;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #22220e;
+    height: 80px;
+    width: 100%;
+    position:relative;
+}
+h1 {
+    color:white;
+}
+header ul {
+    position: absolute;
+    right: 5vw;
+    top:0;
+    line-height:80px;
+}
+h1 {
+    position: absolute;
+    left:120px;
+    top:0;
+    line-height:80px;
+    background-image:url(images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:210px;
+    text-indent:-100px;
+
+}
+header li {
+    display:inline;
+}
+header a {
+    color:white;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+h1 {
+    position: absolute;
+    left:120px;
+    top:0;
+    line-height:80px;
+    background-image:url(imges/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:210px;
+    text-indent:-100px;
+}
+.nas {
+    background-color: antiquewhite;
+    color:rgb(0, 0, 0);
+    height:100vh;
+    background-image: url("imges//图片.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nes h2 {
+    font-size:60px;
+}
+.nas p {
+    color: #000000;
+    font-size:18px;
+    margin: 25px;
+}
+footer {
+    background-color: #000000;
+    color:#b7b7b7;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.product{
+    display: flex;
+    background-color: #ede9db;
+}
+.product div {
+    display: flex;
+    width: 400px;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}

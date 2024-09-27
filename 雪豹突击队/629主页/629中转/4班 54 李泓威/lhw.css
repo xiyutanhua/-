@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+header, section, foorter {
+    background-color: #d6ccc2;
+    border:5px #9d8189;
+    padding-top:0%;
+    margin-bottom: 0px;
+}
+header {
+    background-color: #22220e;
+    height: 80px;
+    width: 100%;
+    position:relative;
+}
+h1 {
+    color:white;
+}
+header ul {
+    position: absolute;
+    right: 5vw;
+    top:0;
+    line-height:80px;
+}
+h1 {
+    position: absolute;
+    left:120px;
+    top:0;
+    line-height:80px;
+    background-image:url(../imges/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:210px;
+    text-indent:-100px;
+}
+header li {
+    display:inline;
+}
+.product img {
+    width: 50%;
+    height: auto;
+}
